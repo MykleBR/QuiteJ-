@@ -58,28 +58,6 @@ O servidor Flask iniciará na porta 5000.
 
     http://127.0.0.1:5000/api/tipo?id=1
 
-📌 Estrutura do Projeto
-
-Api-flask/
-│   main.py              # Arquivo principal para rodar a API
-│   populate_db.py       # Script para popular o banco com dados iniciais
-│   requirements.txt     # Dependências do projeto
-│
-├── app/
-│   ├── __init__.py      # Registro de blueprints e namespaces
-│   ├── main/
-│   │   ├── __init__.py  # Criação da aplicação Flask e inicialização do banco
-│   │   ├── config.py    # Configuração do banco e ambiente
-│   │   ├── api/
-│   │   │   ├── routes.py    # Definição das rotas e endpoints
-│   │   ├── model/
-│   │   │   ├── tipo.py  # Modelo SQLAlchemy para armazenar tipos
-│   │   ├── service/
-│   │   │   ├── tipo_service.py  # Camada de serviço para busca no banco
-│   │   ├── utils/
-│   │       ├── schema.py  # Definição dos schemas para serialização
-│
-├── migrations/          # Diretório do Alembic para versionamento do banco
 
 📚 Documentação Automática com Swagger
 
