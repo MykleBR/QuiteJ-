@@ -14,7 +14,7 @@ Uma API REST desenvolvida com Flask, Flask-RESTx, SQLAlchemy e PostgreSQL para r
 ✅ Fluxo Completo de Instalação e Execução
 1️⃣ Clone o Repositório
 
-git clone <URL_DO_REPO>
+git clone https://github.com/MykleBR/QuiteJ-.git
 cd Api-flask
 
 2️⃣ Criação e Ativação do Ambiente Virtual
