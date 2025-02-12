@@ -86,6 +86,7 @@ Api-flask/
 Com Flask-RESTx, você pode acessar a documentação da API de forma automática atraves do Swagger:
 
 http://127.0.0.1:5000/api/ Swagger Ui
+
 http://127.0.0.1:5000/api/swagger.json  Swagger JSON
 
 Esse endpoint fornece uma interface interativa para testar os endpoints!
