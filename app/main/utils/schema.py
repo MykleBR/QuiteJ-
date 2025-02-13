@@ -1,9 +1,7 @@
-# app/main/utils/schema.py
 import json
 from flask_restx import fields
 from flask_restx.model import Model
 
-# 🔹 Custom Fields
 class JSONField(fields.Raw):
     def format(self, value):
         return json.loads(value)
@@ -17,7 +15,6 @@ class NullableInteger(fields.Integer):
 class NullableFloat(fields.Float):
     __schema_type__ = ["float", "null"]
 
-# 🔹 Definição dos Modelos RESTx
 basic_schema = Model(
     "Basic",
     {

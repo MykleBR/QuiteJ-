@@ -1,4 +1,3 @@
-# app/main/model/tipo.py
 from app.main import db
 
 class Tipo(db.Model):

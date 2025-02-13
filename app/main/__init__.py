@@ -11,8 +11,8 @@ def create_app():
     db.init_app(app)
 
     with app.app_context():
-        from app import blueprint  # ✅ Importando o Blueprint corretamente
-        app.register_blueprint(blueprint)  # ✅ Agora o Blueprint é registrado no Flask
+        from app import blueprint
+        app.register_blueprint(blueprint)
         db.create_all()
 
     return app

@@ -1,4 +1,3 @@
-# app/main/service/tipo_service.py
 from app.main.model.tipo import Tipo
 from app.main import db
 

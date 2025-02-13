@@ -1,8 +1,8 @@
-📝 README Melhorado
 API Flask - Gerenciamento de Tipos
 
 Uma API REST desenvolvida com Flask, Flask-RESTx, SQLAlchemy e PostgreSQL para retornar informações de tipos com base no ID. Utiliza migrações com Alembic e segue uma estrutura modularizada para melhor organização e escalabilidade.
-🚀 Tecnologias Utilizadas
+
+Tecnologias Utilizadas
 
     Python 3.x
     Flask (com Flask-RESTx para documentação)
@@ -11,7 +11,7 @@ Uma API REST desenvolvida com Flask, Flask-RESTx, SQLAlchemy e PostgreSQL para r
     Marshmallow (Serialização de dados)
     Dotenv (Carregamento de variáveis de ambiente)
 
-✅ Fluxo Completo de Instalação e Execução
+Fluxo Completo de Instalação e Execução
 1️⃣ Clone o Repositório
 
 git clone https://github.com/MykleBR/QuiteJ-.git
@@ -34,8 +34,6 @@ pip install -r requirements.txt
     Certifique-se de que o PostgreSQL está rodando.
     Crie o banco de dados (se ainda não existir):
 
-    CREATE DATABASE postgres;
-
 5️⃣ Aplicar Migrações
 
 alembic upgrade head
@@ -56,19 +54,18 @@ O servidor Flask iniciará na porta 5000.
     Endpoint: GET /api/tipo?id=1
     URL para Teste:
 
-    http://127.0.0.1:5000/api/tipo?id=1
+    https://127.0.0.1:5000/api/tipo?id=1
 
 
-📚 Documentação Automática com Swagger
+Documentação Automática com Swagger
 
 Com Flask-RESTx, você pode acessar a documentação da API de forma automática atraves do Swagger:
 
-http://127.0.0.1:5000/api/ Swagger Ui
+https://127.0.0.1:5000/api/ Swagger Ui
 
-http://127.0.0.1:5000/api/swagger.json  Swagger JSON
+https://127.0.0.1:5000/api/swagger.json  Swagger JSON
 
 Esse endpoint fornece uma interface interativa para testar os endpoints!
-📌 Considerações Finais
 
     O projeto segue boas práticas de arquitetura com separação de responsabilidades.
     Utiliza Flask-RESTx para documentação integrada via Swagger.
