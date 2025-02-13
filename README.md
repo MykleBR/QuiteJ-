@@ -12,6 +12,7 @@ Tecnologias Utilizadas
     Dotenv (Carregamento de variáveis de ambiente)
 
 Fluxo Completo de Instalação e Execução
+
 1️⃣ Clone o Repositório
 
 git clone https://github.com/MykleBR/QuiteJ-.git
@@ -39,16 +40,19 @@ pip install -r requirements.txt
 alembic upgrade head
 
 Esse comando cria as tabelas definidas no SQLAlchemy.
+
 6️⃣ População do Banco de Dados
 
 python populate_db.py
 
 Esse script adiciona registros iniciais no banco.
+
 7️⃣ Inicializar a API
 
 python main.py
 
 O servidor Flask iniciará na porta 5000.
+
 8️⃣ Testar no Postman ou Navegador
 
     Endpoint: GET /api/tipo?id=1
