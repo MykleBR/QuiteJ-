@@ -1,4 +1,3 @@
-# app/main/config.py
 import os
 
 class Config:

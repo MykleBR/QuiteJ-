@@ -3,7 +3,6 @@ from flask_restx import Namespace, Resource
 from app.main.service.tipo_service import get_tipo_by_id
 from app.main.utils.schema import basic_schema, tipo_schema
 
-# 🔹 Criando apenas o Namespace (o Blueprint será registrado no app/__init__.py)
 api = Namespace("tipo", description="Operações relacionadas a Tipos")
 
 @api.route("")
